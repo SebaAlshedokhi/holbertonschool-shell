@@ -1,2 +1,2 @@
 #!/bin/bash
-( set -o posix ; set ) ; declare -F
+( declare -F; declare -p | grep -v 'declare -a' | cut -d' ' -f3-; printenv ) | sort -u
