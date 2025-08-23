@@ -1,2 +1,2 @@
 #!/bin/bash
-NUM=$(printf "%x" "$decimal_number")
+DECIMAL=printf "%X\n" "$NUM"
