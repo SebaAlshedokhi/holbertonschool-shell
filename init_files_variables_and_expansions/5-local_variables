@@ -1,2 +1,2 @@
 #!/bin/bash
-source ./5-local_variables
+declare -p
